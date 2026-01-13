@@ -17,13 +17,14 @@ export default function Home() {
             className="text-center"
           >
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-              Powerful Websites for
-              <span className="text-blue-600"> Education Businesses</span>
-            </h1>
-            <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              We build ultra-fast, mobile-first websites exclusively for tuition centers, coaching institutes,
-              dance academies, and all skill-training businesses. Convert more leads with premium design.
-            </p>
+  Powerful Websites for
+  <span className="text-blue-600"> Service Businesses</span>
+</h1>
+<p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
+  We build ultra-fast, mobile-first websites for rental services, travel agencies, clinics, coaching centers, 
+  and other service providers. Grow leads and bookings with premium design.
+</p>
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/contact"
@@ -135,17 +136,17 @@ export default function Home() {
             className="text-center mb-16"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose EduWeb Solutions?
+              Why Choose Our Services?
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              We specialize exclusively in education websites
+               We specialize in creating websites that help all types of service businesses grow, attract customers, and convert leads effectively.
             </p>
           </motion.div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                title: 'Education-Focused',
-                desc: 'Built-in features like course listings, enrollment forms, and student management tools.'
+               title: 'Business-Focused',
+      desc: 'Websites designed for rentals, travel agencies, clinics, coaching centers, and local service providers.'
               },
               {
                 title: 'Conversion Optimized',
@@ -237,7 +238,7 @@ export default function Home() {
             transition={{ duration: 0.8 }}
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Ready to Transform Your Education Business?
+              Ready to Transform Your Business?
             </h2>
             <p className="text-xl mb-8 text-blue-100">
               Get a free consultation and see how we can help you build the perfect website.

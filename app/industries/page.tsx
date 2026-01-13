@@ -1,10 +1,22 @@
 "use client";
 
 import { motion } from 'framer-motion';
-import { GraduationCap, Users, Music, Car, Dumbbell, Languages, Code, Trophy, BookOpen, Palette, Camera, Gamepad2 } from 'lucide-react';
+import { GraduationCap, Users, Music, Car, Dumbbell, Languages, Code, Trophy, BookOpen, Palette, Camera, Gamepad2, Heart } from 'lucide-react';
 
 export default function Industries() {
   const industries = [
+      {
+    name: 'Rental & Travel Services',
+    icon: Car,
+    description: 'Websites for bike rentals, car rentals, scooters, and travel agencies with booking functionality.',
+    features: ['Booking calendar', 'WhatsApp booking', 'Price calculator', 'Location integration']
+  },
+  {
+    name: 'Clinics & Diagnostics',
+    icon: Heart,
+    description: 'Websites for clinics, diagnostic centers, and hospitals to increase appointments and trust.',
+    features: ['Appointment booking', 'Doctor profiles', 'Patient reviews', 'Contact forms']
+  },
     {
       name: 'Tuition Centers',
       icon: GraduationCap,

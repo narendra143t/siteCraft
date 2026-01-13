@@ -5,58 +5,58 @@ import { Check, Star } from 'lucide-react';
 
 export default function Pricing() {
   const plans = [
-    {
-      name: 'Starter',
-      price: '$999',
-      description: 'Perfect for small tuition centers and individual trainers',
-      features: [
-        '5-page responsive website',
-        'Mobile-first design',
-        'Basic SEO optimization',
-        'Contact form',
-        'Google Maps integration',
-        '1 year hosting & domain',
-        'Basic maintenance support'
-      ],
-      popular: false
-    },
-    {
-      name: 'Professional',
-      price: '$1999',
-      description: 'Ideal for growing coaching institutes and academies',
-      features: [
-        '10-page custom website',
-        'Advanced education features',
-        'Course management system',
-        'Student enrollment forms',
-        'WhatsApp integration',
-        'Social media links',
-        'Gallery & testimonials',
-        'Priority support',
-        '1 year hosting & domain',
-        'Monthly maintenance'
-      ],
-      popular: true
-    },
-    {
-      name: 'Premium',
-      price: '$3499',
-      description: 'Complete solution for established education businesses',
-      features: [
-        'Unlimited pages',
-        'Full education platform',
-        'Advanced lead generation',
-        'Online payment integration',
-        'Custom animations',
-        'Video integration',
-        'Advanced analytics',
-        '24/7 priority support',
-        '2 years hosting & domain',
-        'Premium maintenance package'
-      ],
-      popular: false
-    }
-  ];
+  {
+    name: 'Starter',
+    price: '4999',
+    description: 'Perfect for small local businesses and individual service providers',
+    features: [
+      '5-page responsive website',
+      'Mobile-first design',
+      'Basic SEO optimization',
+      'Contact form & WhatsApp integration',
+      'Google Maps location integration',
+      '1 year hosting & domain',
+      'Basic maintenance support'
+    ],
+    popular: false
+  },
+  {
+    name: 'Professional',
+    price: '6499',
+    description: 'Ideal for growing businesses looking to attract more customers',
+    features: [
+      '10-page custom website',
+      'Booking or appointment system',
+      'WhatsApp & lead capture integration',
+      'Customer testimonials & gallery',
+      'Social media links & feeds',
+      'Advanced SEO optimization',
+      'Priority support',
+      '1 year hosting & domain',
+      'Monthly maintenance'
+    ],
+    popular: true
+  },
+  {
+    name: 'Premium',
+    price: '13999',
+    description: 'Complete solution for established businesses seeking maximum growth',
+    features: [
+      'Unlimited pages & full customization',
+      'Booking & WhatsApp automation',
+      'Advanced lead generation & CRM integration',
+      'Online payment integration (if applicable)',
+      'Custom animations & premium design',
+      'Video & media integration',
+      'Advanced analytics & reports',
+      '24/7 priority support',
+      '2 years hosting & domain',
+      'Premium maintenance package'
+    ],
+    popular: false
+  }
+];
+
 
   return (
     <div className="min-h-screen py-20 bg-gray-50">
@@ -135,12 +135,12 @@ export default function Pricing() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { name: 'Custom Development', price: '$500+', desc: 'Additional custom features' },
-              { name: 'Content Creation', price: '$300+', desc: 'Professional content writing' },
-              { name: 'Logo Design', price: '$199', desc: 'Custom logo design' },
-              { name: 'SEO Package', price: '$299/month', desc: 'Ongoing SEO optimization' },
-              { name: 'Maintenance', price: '$99/month', desc: 'Website maintenance & updates' },
-              { name: 'Training', price: '$149', desc: 'Website management training' }
+            
+              { name: 'Content Creation', price: '3000+', desc: 'Professional content writing' },
+              { name: 'Logo Design', price: '299+', desc: 'Custom logo design' },
+            
+            
+      
             ].map((service, index) => (
               <motion.div
                 key={service.name}
