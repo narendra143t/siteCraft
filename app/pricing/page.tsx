@@ -7,7 +7,7 @@ export default function Pricing() {
   const plans = [
   {
     name: 'Starter',
-    price: '4999',
+    price: '7,999',
     description: 'Perfect for small local businesses and individual service providers',
     features: [
       '5-page responsive website',
@@ -22,7 +22,7 @@ export default function Pricing() {
   },
   {
     name: 'Professional',
-    price: '6499',
+    price: '12,999',
     description: 'Ideal for growing businesses looking to attract more customers',
     features: [
       '10-page custom website',
@@ -39,7 +39,7 @@ export default function Pricing() {
   },
   {
     name: 'Premium',
-    price: '13999',
+    price: '17,999',
     description: 'Complete solution for established businesses seeking maximum growth',
     features: [
       'Unlimited pages & full customization',
@@ -137,7 +137,7 @@ export default function Pricing() {
             {[
             
               { name: 'Content Creation', price: '3000+', desc: 'Professional content writing' },
-              { name: 'Logo Design', price: '299+', desc: 'Custom logo design' },
+              { name: 'Logo Design', price: '999+', desc: 'Custom logo design' },
             
             
       

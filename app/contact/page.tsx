@@ -165,8 +165,8 @@ export default function Contact() {
                   <Mail className="w-6 h-6 text-blue-600 mt-1" />
                   <div>
                     <h3 className="font-semibold text-gray-900">Email</h3>
-                    <a href="mailto:info@eduwebsolutions.com" className="text-gray-600 hover:text-blue-600">
-                      info@eduwebsolutions.com
+                    <a href="mailto:SiteCraft@gmail.com" className="text-gray-600 hover:text-blue-600">
+                      SiteCraft@gmail.com
                     </a>
                   </div>
                 </div>

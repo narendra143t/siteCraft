@@ -12,9 +12,22 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
-            <Link href="/" className="text-2xl font-bold text-gray-900">
-              EduWeb Solutions
-            </Link>
+            {/* <Link href="/" className="text-2xl font-bold text-gray-900">
+              SiteCraft
+            </Link> */}
+            <Link
+  href="/"
+  style={{
+    fontSize: "24px",
+    fontWeight: "800",
+    letterSpacing: "0.5px",
+    textDecoration: "none",
+  }}
+>
+  <span style={{ color: "#1F4FA3" }}>Site</span>
+  <span style={{ color: "#F28C28" }}>Craft</span>
+</Link>
+
           </div>
           <nav className="hidden md:flex space-x-8">
             <Link href="/" className="text-gray-700 hover:text-blue-600 transition-colors">Home</Link>

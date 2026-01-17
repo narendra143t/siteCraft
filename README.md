@@ -78,7 +78,7 @@ This project is ready for deployment on Vercel, Netlify, or any static hosting s
 ## Contact
 
 For inquiries about website development services:
-- Email: info@eduwebsolutions.com
+- Email: SiteCraft@gmail.com
 - Phone: +91 9581621692
 
 ---

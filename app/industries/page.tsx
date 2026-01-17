@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from 'framer-motion';
-import { GraduationCap, Users, Music, Car, Dumbbell, Languages, Code, Trophy, BookOpen, Palette, Camera, Gamepad2, Heart } from 'lucide-react';
+import {GraduationCap, Users, Music, Car, Dumbbell, Languages, Code, Trophy, BookOpen, Palette, Camera, Gamepad2, Heart } from 'lucide-react';
 
 export default function Industries() {
   const industries = [

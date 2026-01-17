@@ -15,7 +15,7 @@ export default function About() {
           className="text-center mb-16"
         >
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            About EduWeb Solutions
+            About SiteCraft
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             We're passionate about empowering education businesses with cutting-edge digital solutions.
@@ -80,7 +80,7 @@ export default function About() {
             <div className="text-center">
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Proven Results</h3>
               <p className="text-gray-600">
-                Our education-focused websites consistently deliver higher conversion rates.
+                Our Business focused websites consistently deliver higher conversion rates.
               </p>
             </div>
           </div>

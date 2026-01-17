@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-lg font-semibold mb-4">EduWeb Solutions</h3>
+            <h3 className="text-lg font-semibold mb-4">SiteCraft</h3>
             <p className="text-gray-400">
               Building powerful online presence for education and skill-training businesses.
             </p>
@@ -39,7 +39,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2026 EduWeb Solutions. All rights reserved.</p>
+          <p>&copy; 2026 SiteCraft. All rights reserved.</p>
         </div>
       </div>
     </footer>
