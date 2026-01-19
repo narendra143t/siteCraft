@@ -34,6 +34,7 @@ export default function Header() {
             <Link href="/about" className="text-gray-700 hover:text-blue-600 transition-colors">About</Link>
             <Link href="/services" className="text-gray-700 hover:text-blue-600 transition-colors">Services</Link>
             <Link href="/industries" className="text-gray-700 hover:text-blue-600 transition-colors">Industries</Link>
+            <Link href="/portfolio" className="text-gray-700 hover:text-blue-600 transition-colors">Portfolio</Link>
             <Link href="/pricing" className="text-gray-700 hover:text-blue-600 transition-colors">Pricing</Link>
             <Link href="/contact" className="text-gray-700 hover:text-blue-600 transition-colors">Contact</Link>
           </nav>
@@ -55,6 +56,7 @@ export default function Header() {
               <Link href="/about" className="text-gray-700 hover:text-blue-600">About</Link>
               <Link href="/services" className="text-gray-700 hover:text-blue-600">Services</Link>
               <Link href="/industries" className="text-gray-700 hover:text-blue-600">Industries</Link>
+                  <Link href="/portfolio" className="text-gray-700 hover:text-blue-600">Portfolio</Link>
               <Link href="/pricing" className="text-gray-700 hover:text-blue-600">Pricing</Link>
               <Link href="/contact" className="text-gray-700 hover:text-blue-600">Contact</Link>
               <Link href="/contact" className="bg-blue-600 text-white px-4 py-2 rounded-lg text-center">Get Quote</Link>
