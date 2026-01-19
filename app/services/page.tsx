@@ -134,7 +134,7 @@ export default function Services() {
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {[
-              'Tuition Centers', 'Coaching Institutes', 'Schools & Colleges', 'Online Educators',
+              'hotels', 'Coaching Institutes', 'Schools & Colleges', 'Online Educators',
               'Dance Academies', 'Music Classes', 'Driving Schools', 'Fitness Trainers',
               'Yoga Trainers', 'Writing Coaches', 'Spoken English Trainers', 'Coding Institutes',
               'Competitive Exam Coaching', 'Skill Training Businesses'

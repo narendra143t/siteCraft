@@ -108,7 +108,7 @@ export default function Home() {
           </motion.div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {[
-              'Tuition Centers', 'Coaching Institutes', 'Dance Academies', 'Music Schools',
+              'Hotels', 'Coaching Institutes', 'Dance Academies', 'Music Schools',
               'Driving Schools', 'Fitness Trainers', 'Yoga Centers', 'Spoken English',
               'Coding Institutes', 'Competitive Exam', 'Writing Coaches', 'Any Skill Training'
             ].map((industry, index) => (

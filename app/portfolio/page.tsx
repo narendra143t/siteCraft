@@ -6,12 +6,12 @@ import { ExternalLink, Eye } from 'lucide-react';
 export default function Portfolio() {
   const projects = [
     {
-      title: 'Elite Math Tuition Center',
-      category: 'Tuition Center',
-      description: 'Complete website redesign with online enrollment system and student portal.',
+      title: 'sri sai balaji diagnostic & ecg cente',
+      category: 'Medical Center',
+      description: 'Comprehensive website with appointment booking, service details, and patient testimonials.',
       image: '/api/placeholder/400/300', // Placeholder
       results: '300% increase in online inquiries',
-      link: '#'
+      link: 'https://sri-sai-balaji-diagnostic-ecg-cente.vercel.app/' 
     },
     {
       title: 'Dance Academy Pro',
