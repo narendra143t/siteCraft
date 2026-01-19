@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "EduWeb Solutions - Premium Website Development for Education Businesses",
+  title: "SiteCraft - Premium Website Development for Education Businesses",
   description: "Build powerful online presence for tuition centers, coaching institutes, dance academies, and all skill-training businesses. Ultra-fast, mobile-first websites with lead generation tools.",
 };
 

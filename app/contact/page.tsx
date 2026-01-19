@@ -222,7 +222,7 @@ export default function Contact() {
                   💬 WhatsApp Chat
                 </a>
                 <a
-                  href="mailto:info@eduwebsolutions.com"
+                  href="mailto:SiteCraft@gmail.com"
                   className="block bg-gray-600 text-white py-3 px-4 rounded-lg text-center font-semibold hover:bg-gray-700 transition-colors"
                 >
                   ✉️ Send Email

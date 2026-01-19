@@ -33,7 +33,7 @@ export default function Footer() {
             <h4 className="text-sm font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-gray-400">
               <li><Link href="/contact" className="hover:text-white">Get in Touch</Link></li>
-              <li><Link href="mailto:info@eduwebsolutions.com" className="hover:text-white">info@eduwebsolutions.com</Link></li>
+              <li><Link href="mailto:inf" className="hover:text-white">SiteCraft@gmail.com</Link></li>
               <li><Link href="tel:+919581621692" className="hover:text-white">+91 9581621692</Link></li>
             </ul>
           </div>
