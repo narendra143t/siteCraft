@@ -25,7 +25,7 @@ export default function Header() {
   }}
 >
   <span style={{ color: "#111827" }}>Site</span>
-  <span style={{ color: "#2563EB" }}>Craft.in</span>
+  <span style={{ color: "#2563EB" }}>Craft</span>
 </Link>
 
           </div>
